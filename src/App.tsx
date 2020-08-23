@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <AlCard>
-        <div slot="front">Front</div>
-        <div slot="back">Back</div>
+        <div className="card card--front" slot="front"></div>
+        <div className="card card--back" slot="back">Cat</div>
       </AlCard>
     </div>
   );
